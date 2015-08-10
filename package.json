@@ -19,6 +19,8 @@
   "homepage": "https://github.com/TamiWohlers/nodeFun#readme",
   "dependencies": {
     "body-parser": "^1.13.3",
-    "express": "^4.13.3"
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "twilio": "^2.2.1"
   }
 }
