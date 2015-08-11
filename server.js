@@ -5,14 +5,14 @@ var bodyParser = require('body-parser');
 var cors = require('cors');
 var request = require('request');
 var twilio = require('twilio');
-var firebase = require('firebase');
+var Firebase = require('firebase');
 
 //Twilio credentials
-var accountSid = ''; 
-var authToken = ''; 
+var accountSid = 'ACbf1776a1f3f7615f08171cd7bcd962fd'; 
+var authToken = '430cdc09c40aaf36bafc3bcfddacc675'; 
 
 ///Firebase reference
-var ref = new firebase('https://twiliomessagingapp.firebaseio.com/numbers');
+var ref = new Firebase('https://twiliomessagingapp.firebaseio.com/numbers');
  
 //require the Twilio module and create a REST client 
 
